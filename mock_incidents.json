@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1001,
+    "number": 501,
+    "name": "User cannot connect to VPN",
+    "description_no_html": "User reports that VPN fails with timeout error when working from home. Internet works normally. Issue started this morning.",
+    "priority": "Medium",
+    "state": "New",
+    "requester": {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com"
+    }
+  },
+  {
+    "id": 1002,
+    "number": 502,
+    "name": "Server disk space critically low",
+    "description_no_html": "Monitoring alert shows production file server has only 3% disk space remaining on C drive. Users are reporting slow file access.",
+    "priority": "High",
+    "state": "New",
+    "requester": {
+      "name": "Monitoring System",
+      "email": "alerts@example.com"
+    }
+  },
+  {
+    "id": 1003,
+    "number": 503,
+    "name": "New employee needs laptop setup",
+    "description_no_html": "Manager requests laptop, Microsoft 365 account, VPN, and standard software setup for new hire starting next Monday.",
+    "priority": "Low",
+    "state": "New",
+    "requester": {
+      "name": "John Manager",
+      "email": "john.manager@example.com"
+    }
+  }
+]
