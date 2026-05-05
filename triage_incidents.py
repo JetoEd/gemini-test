@@ -74,3 +74,30 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+import requests
+
+def fetch_solarwinds_incidents():
+    token = os.getenv("SOLARWINDS_TOKEN")
+    base_url = os.getenv("SOLARWINDS_BASE_URL", "https://api.samanage.com")
+
+    headers = {
+        "X-Samanage-Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.samanage.v2.1+json",
+        "Content-Type": "application/json"
+    }
+
+    url = f"{base_url}/incidents.json"
+
+    params = {
+        "updated": "1",
+        "layout": "short",
+        "per_page": 20
+    }
+
+    response = requests.get(url, headers=headers, params=params)
+    response.raise_for_status()
+
+    return response.json()
+"""
